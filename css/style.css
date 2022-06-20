@@ -9,17 +9,18 @@ body {
 	opacity: 90%;
 }
 
-li a, .dropdown-toggle{
+li a, .dropdown-toggle {
 	color: rgb(255, 255, 255);
 }
 
 li a:hover, .dropdown-item:hover {
-	background-color: rgb(245, 3, 3);
+	border-radius: 5%;
+	background-color: rgb(124, 12, 12);
 	color: #fff;
 }
 
-.navbar-collapse:hover {
-	color: #fff;
+.nav-item:hover {
+	font-size: 19px;
 }
 
 .banner {
