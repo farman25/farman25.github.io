@@ -1,0 +1,235 @@
+body {
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+	font-family: raleway sans-serif;
+}
+
+
+.navbar {
+	opacity: 90%;
+}
+
+li a, .dropdown-toggle{
+	color: rgb(255, 255, 255);
+}
+
+li a:hover, .dropdown-item:hover {
+	background-color: rgb(245, 3, 3);
+	color: #fff;
+}
+
+.navbar-collapse:hover {
+	color: #fff;
+}
+
+.banner {
+	background: url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg") no-repeat center center;
+	background-size: cover;
+	padding-top: 20%;
+	padding-bottom: 20%;
+	color: #fff;
+}
+
+
+
+.row img {
+	border-radius: 5%;
+}
+
+.col-md-5 P, .col-md-5 br {
+	line-height: 40px;
+}
+
+.aboutus {
+	color: black;
+	font-size: 18px;
+	font-style: inherit;
+	background-color: rgba(221, 218, 221, 0.5);
+	
+}
+
+.layanan {
+	color: #fff;
+	background-color: transparent;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.layanan h1, .rowlayanan {
+	text-align: center;
+}
+
+.rowlayanan div img {
+	width: 300px;
+	padding: 10px;
+}
+
+.rowlayanan {
+	padding: 10px 0px;
+}
+
+.row iframe {
+	border-radius: 5%;
+	border: 5;
+
+}
+
+.kontakawal {
+	font-size: 18px;
+	font-style: inherit;
+	background-color: rgba(221, 218, 221, 0.5);
+
+}
+
+.kontak {
+	color: #2c2524;
+	margin-top: 10px;
+
+}
+
+.fb {
+	background: #fff;
+	width: 45px;
+}
+
+/*.maps {*/
+
+
+.bungkusmaps {
+
+	margin: center;
+	margin-left: 30px;
+	margin-bottom: 10px;
+	border: 10;
+	border-color: #fff;
+}
+
+iframe {
+			max-width: 100%;
+			border: 5px solid #500;
+			
+		}
+
+.footer {
+	width: 100%;
+	height: 100px;
+	margin-bottom: 0px;
+	background-color: red;
+}
+
+
+
+
+/*portfolios html*/
+.portfolio {
+	margin-bottom: 70px;
+}
+.bg-dark h1 {
+	text-align: center;
+}
+
+.foto {
+	width: 1100px;
+	/* border: 2px solid greenyellow; */
+	/* background-color: rgba(20, 20, 20, 0.5); */
+	margin: 0 auto;
+	text-align: center;
+	display: inline;
+	flex-wrap: wra;
+}
+
+.portfolio .container h1 {
+	margin-top: 100px;
+	margin-bottom: 50px;
+	text-align: center;
+	color: #fff;
+}
+.cportfolio div a img, .cportfolio div a div a img{
+	width: 300px;
+	height: 200px;
+	margin: 25px;
+}
+
+.foto img {
+	transform: scale(1);
+	transition: all .3s ease-out;
+}
+
+.foto a img {
+	text-align: center;
+}
+
+.fotokhusus:hover img {
+	transform: scale(1.1);
+	transition: all .3s ease-in;
+}
+
+
+.overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.0);
+	z-index: 100;
+	text-align: center;
+	padding: 160px 0;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	transition: all .1s ease-out;
+}
+
+.overlay img {
+	width: 600px;
+	height: 400px;
+	margin: auto 0;
+	padding-bottom: 0px;
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.9);
+
+}
+
+
+.overley:target img {
+	animation: zoomDanFade 1s;
+}
+
+.overlay:target {
+	bottom: 0;
+	right: 0;
+	width: auto;
+	height: auto;
+	background-color: rgba(0, 0, 0, 0.7);
+	transition: all .1s ease-in;
+}
+
+.overlay .close {
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	color: #fff;
+	text-decoration: none;
+	background-color: red;
+	border: 1px solid white;
+	line-height: 25px;
+	padding: 5px;
+	border-radius: 20%;
+}
+
+/* .foto {
+	border: 5px;
+	border-color: black;
+	background-color: black;
+} */
+
+/*animasi*/
+
+@keyframes zoomDanFade {
+	0% {
+		transform: scale(0);
+		opacity: 0;
+	}
+
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
