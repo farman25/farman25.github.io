@@ -1,4 +1,8 @@
 @media only screen and (max-width: 576px){
+	/* banner */
+	.display-6 {
+		font-size: 25px;
+	}
 	/* portfoloi */
 	.col-lg-4 {
 		margin-bottom: 20px;
@@ -46,14 +50,14 @@
 	/* akhir portfolio */
 
 	iframe {
-		width: 450px;
-		margin-left: 40px;
+		width: 350px;
+		margin-left: 10px;
 	}
 
 	/* Kontak */
 	.kontak {
 		color: #2c2524;
-		width: 500px;
+		width: 400px;
 		margin-top: 10px;
 		margin-bottom: 40px;
 	}
