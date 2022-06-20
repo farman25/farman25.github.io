@@ -45,10 +45,19 @@
 	}
 	/* akhir portfolio */
 
+	iframe {
+		width: 450px;
+		margin-left: 40px;
+	}
+
 	/* Kontak */
 	.kontak {
+		color: #2c2524;
+		width: 500px;
+		margin-top: 10px;
 		margin-bottom: 40px;
 	}
+	
 	/* akhir kontak */
 } 
 @media only screen and (min-width: 576px) and (max-width: 758px){
