@@ -4,6 +4,13 @@ body {
 	font-family: raleway sans-serif;
 }
 
+.navbarblack {
+	height: 68px;
+	background-color: rgb(0, 0, 0);
+	border: 90px;
+	border-color: #fff;
+	bor
+}
 
 .navbar {
 	opacity: 90%;
