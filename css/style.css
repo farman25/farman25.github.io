@@ -31,10 +31,18 @@ li a:hover, .dropdown-item:hover {
 	color: #fff;
 }
 
-
-
 .row img {
 	border-radius: 5%;
+}
+
+.aboutus img {
+	border-radius: 5%;
+	margin-left: 100px;
+}
+
+.aboutus h1, .aboutus p {
+	border-radius: 5%;
+	margin-left: 150px;
 }
 
 .col-md-5 P, .col-md-5 br {
@@ -233,4 +241,15 @@ iframe {
 		transform: scale(1);
 		opacity: 1;
 	}
+}
+
+/* popup */
+.modal-title {
+	color: black;
+	font-size: 30px;
+}
+.modal-body {
+	color: black;
+	text-align: start;
+	font-size: 20px;
 }
