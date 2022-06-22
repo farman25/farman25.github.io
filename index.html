@@ -82,14 +82,16 @@
     <!-- About -->
     <section class="bg-transparent">
       <div class="container-fluid aboutus pt-4 pb-5">
-        <div class="row">
-          <div class="col-md-5 ms-1">
-            <img src="img/about.jpg" class="img-thumbnail">
-          </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-5">
+              <img src="img/about.jpg" class="img-thumbnail img-fluid">
+            </div>
 
-          <div class="col-md-6 ms-1 pa-5 pe-5 mt-5">
-            <h1>About Us</h1>
-            <p>One Installer merupakan penyedia jasa nomor 1 di Gorontalo. One Installer Melayani Jasa Perbaikan/Instal Labtop/PC, Jasa Cetak Undangan, Id Card, Dll.</p>
+            <div class="col-5 offset-1 my-4">
+              <h1>About Us</h1>
+              <p>One Installer merupakan penyedia jasa nomor 1 di Gorontalo. One Installer Melayani Jasa Perbaikan/Instal Labtop/PC, Jasa Cetak Undangan, Id Card, Dll.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -101,12 +103,44 @@
     <section>
       <div class="container-fluid layanan bg-tranparent">
         <div class="container">
-          <h1 class="pb-4 pt-4" id="layanan">Service</h1>
-        </div>   
+          <div class="row">
+            <h1 class="pb-4 pt-4" id="layanan">Service</h1>
+          </div>
+         
           <div class="row rowlayanan text-center">
             <div class="col-md-4">
               <img src="img/labtop.png"  class="pt-0">
-              <br><a href="https://api.whatsapp.com/send/?phone=6282210164422&text=Halo, Kak. saya mau Instal Labtop"><button class="btn btn-danger mt-2 mb-5">Order Now</button></a>
+              <br>
+              
+              <!-- <a href="https://api.whatsapp.com/send/?phone=6282210164422&text=Halo, Kak. saya mau Instal Labtop"><button class="btn btn-danger mt-2 mb-5">Order Now</button></a> -->
+            
+            <!-- tes popup -->
+            <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Detail
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Instal Labtop</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <a href="https://api.whatsapp.com/send/?phone=6282210164422&text=Halo, Kak. saya mau Instal Labtop"><button class="btn btn-primary">Order Now</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            <!-- akhir popup -->
+
             </div>
 
             <div class="col-md-4">
@@ -119,7 +153,7 @@
               <br><a href="https://api.whatsapp.com/send/?phone=6282210164422&text=Halo, Kak. saya mau pesan Id Card"><button class="btn btn-danger mt-2 mb-5">Order Now</button></a>
             </div>
           </div>
-        
+        </div>  
       </div>
     </section>
     <!-- akhir layanan -->
