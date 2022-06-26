@@ -261,3 +261,68 @@ iframe {
 	text-align: start;
 	font-size: 20px;
 }
+
+/* wa button */
+.wa_button .label{
+	position: absolute;
+	display: block;
+	right: 65px;
+	text-align: left;
+	transform-origin: left;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	font-size: 12px;
+	white-space: nowrap;
+	padding: 5px 15px;
+	height: auto !important;
+	line-height: initial;
+	color: #fff;
+	background: #4e4c4c;
+}
+#whatsapp-floating {
+	margin-top: 12px;
+	fill: #fff;
+	height: 30px;
+	width: 50px;
+}
+svg {
+	overflow: hidden;
+	vertical-align: middle;
+}
+.wa_button a {
+	visibility: visible;
+	cursor: pointer;
+	color: #fff;
+	text-align: center;
+	background: #03d631;
+	box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+	left: 0 !important;
+	bottom: 0 !important;
+	top: 0 !important;
+	opacity: 1;
+	visibility: visible;
+	transform: scale(1) !important;
+	display: block;
+	outline: none;
+	position: relative;
+	width: 56px;
+	height: 56px;
+	max-width: none !important;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 5px;
+	-webkit-border-radius: 50%;
+	-webkit-transition: all .2s ease-in-out;
+	-webkit-user-select: none;
+	animation: buttonizer-hello 4s infinite;
+
+}
+.wa_button {
+	display: flex;
+	flex-direction: column;
+	right: 5%;
+	bottom: 5%;
+	position: fixed;
+	z-index: 99999;
+}
