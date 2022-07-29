@@ -9,7 +9,6 @@ body {
 	background-color: rgb(0, 0, 0);
 	border: 90px;
 	border-color: #fff;
-	bor
 }
 
 .navbar {
@@ -330,5 +329,5 @@ svg {
 
 /* modal */
 .card1 {
-	background-color: #c4c0c0;
+	background-color: #f70a0a;
 }
