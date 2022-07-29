@@ -326,3 +326,9 @@ svg {
 	position: fixed;
 	z-index: 99999;
 }
+
+
+/* modal */
+.card1 {
+	background-color: #c4c0c0;
+}
