@@ -317,6 +317,10 @@ svg {
 	animation: buttonizer-hello 4s infinite;
 
 }
+/* modal */
+.card1 {
+	background-color: #bbb7b7;}
+	
 .wa_button {
 	display: flex;
 	flex-direction: column;
@@ -324,10 +328,4 @@ svg {
 	bottom: 5%;
 	position: fixed;
 	z-index: 99999;
-}
-
-
-/* modal */
-.card1 {
-	background-color: #f70a0a;
 }
