@@ -132,6 +132,17 @@ iframe {
 	background-color: red;
 }
 
+.video1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+}
+
+.judulvideo {
+	color: #fff;
+}
+
 
 
 
